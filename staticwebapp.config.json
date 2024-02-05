@@ -72,7 +72,7 @@
     },
     {
       "route": "/api/Remove*",
-      "allowedRoles": ["admin", "editor"]
+      "allowedRoles": ["admin", "editor", "technician"]
     },
     {
       "route": "/cipp/*",
