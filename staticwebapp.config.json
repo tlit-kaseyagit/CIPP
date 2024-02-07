@@ -63,6 +63,14 @@
       "allowedRoles": ["admin", "editor"]
     },
     {
+      "route": "/api/ExecMaintenanceScripts*",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecAlertsListAllTenants",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
       "route": "/api/ExecScheduledCommand",
       "allowedRoles": ["admin", "editor", "technician"]
     },
