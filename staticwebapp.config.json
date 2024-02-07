@@ -59,11 +59,7 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/api/Exec*",
-      "allowedRoles": ["admin", "editor"]
-    },
-    {
-      "route": "/api/ExecMaintenanceScripts",
+      "route": "/api/ExecMaintenanceScripts*",
       "allowedRoles": ["admin", "editor", "technician"]
     },
     {
@@ -77,6 +73,10 @@
     {
       "route": "/api/ExecSchedulerBillingRun",
       "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/Exec*",
+      "allowedRoles": ["admin", "editor"]
     },
     {
       "route": "/api/Remove*",
