@@ -59,6 +59,10 @@
       "allowedRoles": ["admin", "editor", "readonly", "technician"]
     },
     {
+      "route": "/api/ExecBECCheck",
+      "allowedRoles": ["admin", "editor", "readonly", "technician"]
+    },
+    {
       "route": "/api/ExecExcludeTenant",
       "allowedRoles": ["admin"]
     },
