@@ -99,8 +99,16 @@
       "allowedRoles": ["admin", "editor", "technician"]
     },
     {
+      "route": "/api/ExecResetPass",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
       "route": "/api/Exec*",
       "allowedRoles": ["admin", "editor"]
+    },
+    {
+      "route": "/api/List*",
+      "allowedRoles": ["admin", "editor", "technician"]
     },
     {
       "route": "/api/Remove*",
