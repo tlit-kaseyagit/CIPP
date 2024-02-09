@@ -83,6 +83,22 @@
       "allowedRoles": ["admin", "editor", "technician"]
     },
     {
+      "route": "/api/ExecConvertToSharedMailbox",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecCreateTAP",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecEnableArchive",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
+      "route": "/api/ExecDisableUser",
+      "allowedRoles": ["admin", "editor", "technician"]
+    },
+    {
       "route": "/api/Exec*",
       "allowedRoles": ["admin", "editor"]
     },
