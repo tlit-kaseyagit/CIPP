@@ -107,6 +107,10 @@
       "allowedRoles": ["admin", "editor", "technician"]
     },
     {
+      "route": "/api/ExecGeoIPLookup",
+      "allowedRoles": ["admin", "editor", "technician", "readonly"]
+    },
+    {
       "route": "/api/Exec*",
       "allowedRoles": ["admin", "editor"]
     },
