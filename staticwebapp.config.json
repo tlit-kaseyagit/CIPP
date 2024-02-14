@@ -111,6 +111,14 @@
       "allowedRoles": ["admin", "editor", "technician", "readonly"]
     },
     {
+      "route": "/api/ExecIncidentsList",
+      "allowedRoles": ["admin", "editor", "technician", "readonly"]
+    },
+    {
+      "route": "/api/ExecAlertsList",
+      "allowedRoles": ["admin", "editor", "technician", "readonly"]
+    },
+    {
       "route": "/api/Exec*",
       "allowedRoles": ["admin", "editor"]
     },
