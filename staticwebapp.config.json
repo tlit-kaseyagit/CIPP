@@ -103,10 +103,6 @@
       "allowedRoles": ["admin", "editor", "technician"]
     },
     {
-      "route": "/api/ExecResetPass",
-      "allowedRoles": ["admin", "editor", "technician"]
-    },
-    {
       "route": "/api/ExecGeoIPLookup",
       "allowedRoles": ["admin", "editor", "technician", "readonly"]
     },
